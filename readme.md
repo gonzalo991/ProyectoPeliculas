@@ -21,7 +21,7 @@
 
 ### **9. npm i -D webpack webpack-cli**
 
-### *Webpack-plugins y loaders:*
+## *Webpack-plugins y loaders:*
 
 ### **10. npm i -D mini-css-extract-plugin css-loader**
 ### **11. npm i -D html-webpack-plugin html-loader** 
