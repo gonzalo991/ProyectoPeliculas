@@ -15,25 +15,26 @@
 ### **5. nodemon -> npm i -D nodemon**
 ### **6. dotenv -> npm i dotenv**
 ### **7. React -> npm i react react-dom react-router-dom**
+### **8. React bootstrap -> npm install react-bootstrap bootstrap**
 
 ## *Webpack:* 
 
-### **8. npm i -D webpack webpack-cli**
-### **9. npm i -D html-webpack-plugin html-loader** 
-### **10. npm i -D sass-loader sass webpack**
-### **11. npm i -D mini-css-extract-plugin css-loader**
+### **9. npm i -D webpack webpack-cli**
+### **10. npm i -D html-webpack-plugin html-loader** 
+### **11. npm i -D sass-loader sass webpack**
+### **12. npm i -D mini-css-extract-plugin css-loader**
 
 ## *Babel:* 
 
-### **12. npm i -D @babel/preset-env @babel/preset-react @babel/core**
-### **13. npm i -D babel-loader**
-### **14. npm i -D @babel/plugin-transform-runtime @babel/runtime**
+### **13. npm i -D @babel/preset-env @babel/preset-react @babel/core**
+### **14. npm i -D babel-loader**
+### **15. npm i -D @babel/plugin-transform-runtime @babel/runtime**
 
 ### *babel-plugins y loaders:*
 
-### **15. npm i -D css-loader**
-### **16. npm i -D mini-css-extract-plugin**
-### **17. npm i -D sass-loader**
+### **16. npm i -D css-loader**
+### **17. npm i -D mini-css-extract-plugin**
+### **18. npm i -D sass-loader**
 
 # **Base de datos:**
 
