@@ -20,9 +20,12 @@
 ## *Webpack:* 
 
 ### **9. npm i -D webpack webpack-cli**
-### **10. npm i -D html-webpack-plugin html-loader** 
-### **11. npm i -D sass-loader sass webpack**
-### **12. npm i -D mini-css-extract-plugin css-loader**
+
+### *Webpack-plugins y loaders:*
+
+### **10. npm i -D mini-css-extract-plugin css-loader**
+### **11. npm i -D html-webpack-plugin html-loader** 
+### **12. npm i -D sass-loader sass webpack**
 
 ## *Babel:* 
 
@@ -30,17 +33,15 @@
 ### **14. npm i -D babel-loader**
 ### **15. npm i -D @babel/plugin-transform-runtime @babel/runtime**
 
-### *babel-plugins y loaders:*
-
-### **16. npm i -D css-loader**
-### **17. npm i -D mini-css-extract-plugin**
-### **18. npm i -D sass-loader**
-
 # **Base de datos:**
 
 ## *Los archivos de la base de datos están en la carpeta db.son.files son archivos.json para ser ejecutados en mongodb*
 
 # **Comando para correr la app en modo desarrollador:**
 
-## *1. Abrir el proyecto en visual studio code: Ejecutar -> **cd Cinema, luego Ejecutar ->npm run dev** , luego abrir otra consola y Ejecutar->**cd Cinema y luego Ejecutar->npm run webpack**, Con ésto el proyectp debería funcionar correctamente en el puerto http://localhost:4200*
+## *1. Abrir el proyecto en visual studio code:*
+## *2. Ejecutar -> **cd Cinema, luego Ejecutar ->npm run dev**
+## *3. luego abrir otra consola y Ejecutar->**cd Cinema***
+## *4. Ejecutar-> **npm run webpack*** 
+## *5. Con ésto el proyectp debería funcionar correctamente en el puerto http://localhost:4200*
 
