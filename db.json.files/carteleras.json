@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "63359e359bdd243de5091b9a"
+  },
+  "titulo": "Obi-Wan Kenobi: El retorno de un jedi",
+  "duracion": "1hs",
+  "año": 2022,
+  "descripcion": "Este especial explora el regreso de Obi-Wan Kenobi y Anakin Skywalker",
+  "imagen": "https://super-ficcion.com/wp-content/uploads/2022/05/Obi-Wan-estreno-1x03-1.webp",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63359f3ea30a142ad8eccbc5"
+  },
+  "titulo": "Hogar a la deriva",
+  "duracion": "2 hs",
+  "año": 2022,
+  "descripcion": " Kosuke y sus amigos deciden explorar un edificio que será demolido.",
+  "imagen": "https://occ-0-1007-33.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZDH4OvP3rjyna__tcQ54YGajNMsOs29987KOon7fZtpmt-T6m_8qtBusF4yq-kxT1aQ-FKfI0Z2jv0yxmg8qz-mYjMjf-6b3qXJNqRtKCMScHDliRST6EANWPThSkDzZPRk8w.jpg?r=ab4",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63359f94a30a142ad8eccbd2"
+  },
+  "titulo": "Pinocho",
+  "duracion": "1 hs 51 m",
+  "año": 2022,
+  "descripcion": "Adaptación de imagen real del clásico de disney Pinocho",
+  "imagen": "https://es.web.img3.acsta.net/pictures/22/08/30/13/02/2562155.jpg",
+  "__v": 0
+}]
