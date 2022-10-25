@@ -15,7 +15,7 @@ class Home extends React.Component {
         //Antes que nada hago la consulta para saber si existe un id
         if (this.state._id) {
             //En caso de haber un id u objeto preexistente envio una petición del tipo PUT al controlador para editar el objeto
-            fetch(`http://localhost:4200/cartelera/update/${this.state._id}`, {
+            fetch(`/cartelera/update/${this.state._id}`, {
                 method: "POST",
                 body: JSON.stringify(this.state),
                 headers: {
@@ -37,7 +37,7 @@ class Home extends React.Component {
             this.getMovies();
         } else {
             //Hago la petición vía fetch, declaro el método que será POST, envío el estado y las cabeceras
-            fetch("http://localhost:4200/cartelera/addMovie", {
+            fetch("/cartelera/addMovie", {
                 method: "POST",
                 body: JSON.stringify(this.state),
                 headers: {
@@ -59,7 +59,7 @@ class Home extends React.Component {
 
     //Función que envía la petición para traer las películas
     getMovies() {
-        fetch("http://localhost:4200/cartelera")
+        fetch("/cartelera")
             .then(res => res.json())
             .then(data => {
                 //Guardo la respuesta del servidor en la variable películas del estado
@@ -69,7 +69,7 @@ class Home extends React.Component {
 
     //Función para editar los datos de las películas
     editMovies(id) {
-        fetch(`http://localhost:4200/cartelera/${id}`)
+        fetch(`/cartelera/${id}`)
             .then(res => res.json())
             .then(data => {
                 this.setState({
@@ -86,7 +86,7 @@ class Home extends React.Component {
     //Función para borrar una película
     deleteMovie(id) {
         if (confirm('¿Estás seguro que deseas borrar la película?')) {
-            fetch(`http://localhost:4200/cartelera/${id}`, {
+            fetch(`/cartelera/${id}`, {
                 method: "DELETE",
                 headers: {
                     'Accept': 'application/json',

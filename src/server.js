@@ -5,7 +5,7 @@ const morgan = require('morgan');
 const database = require('./database/mongo.database');
 const dotenv = require('dotenv');
 dotenv.config({ path: './.env' });
-const PORT = process.env.PORT || 4200;
+const PORT = process.env.PORT || 3000;
 
 //Middlewares
 app.use(morgan('dev'));
@@ -21,4 +21,4 @@ app.use('/peliculas', require('./routes/peliculas.routes'));
 app.use('/cartelera', require('./routes/cartelera.routes'));
 
 // Recibimos el puerto y lo ejecutamos
-app.listen(PORT, () => console.log('Servidor establecido en el puerto 4200'));
+app.listen(PORT, () => console.log(`Servidor establecido en el puerto ${PORT}`));
