@@ -35,7 +35,7 @@
 
 # **Base de datos:**
 
-## *Los archivos de la base de datos están en la carpeta db.son.files son archivos.json para ser ejecutados en mongodb*
+## *Los archivos de la base de datos están en la carpeta db.son.files son archivos.json para ser importados en mongodb*
 
 # **Comando para correr la app en modo desarrollador:**
 
@@ -43,5 +43,5 @@
 ## *2. Ejecutar -> **cd Cinema, luego Ejecutar ->npm run dev**
 ## *3. luego abrir otra consola y Ejecutar->**cd Cinema***
 ## *4. Ejecutar-> **npm run webpack*** 
-## *5. Con ésto el proyectp debería funcionar correctamente en el puerto http://localhost:4200*
+## *5. Con ésto el proyecto debería funcionar correctamente en el puerto http://localhost:4200*
 
